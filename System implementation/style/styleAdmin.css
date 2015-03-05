@@ -1,0 +1,155 @@
+body{
+    background-color: #d9d9d9;
+	background-image:url(img/adminmainbg.jpg);
+    background-repeat: no-repeat;
+	font-family: 'helvetica neue';
+}
+
+#logo{
+    width: 200px;
+    position: relative;
+    left: 165px;
+}
+/*.wrapper{
+	background-image:url(img/lgbg.jpg);
+    opacity: .7;
+    background-repeat: no-repeat;
+    width:944px;
+	margin:10px auto;
+	padding:20px 40px 20px 0px;
+}*/
+.lg-container{
+	width:475px;
+	margin:80px auto;
+	padding:20px 40px;
+	border:1px solid #f4f4f4;
+	background:rgba(255,255,255,.5);
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	
+	-webkit-box-shadow: 0 0 2px #aaa;
+	-moz-box-shadow: 0 0 2px #aaa;
+	box-shadow: 0 0 2px #aaa;
+}
+.lg-container h1{
+	font-size:28px;
+	text-align:center;
+	font-family: 'helvetica neue';
+}
+#lg-form > div {
+	margin:10px 5px;
+	padding:5px 0;
+}
+#lg-form label{
+	display: none;
+	font-size: 20px;
+	line-height: 25px;
+}
+#lg-form input[type="text"],
+#lg-form input[type="password"]{
+	border:1px solid rgba(51,51,51,.5);
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 20px;
+	width: 100%;
+	font-family: 'helvetica neue';
+	text-align:center;
+}
+#lg-form div:nth-child(3) {
+	text-align:center;
+}
+#lg-form button{
+	font-family: 'helvetica neue';
+	font-size: 18px;
+	border:1px solid #000;
+	padding:5px 10px;
+	border:1px solid rgba(39, 39, 39, 0.5);
+    background-color: #ef8535;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	
+	-webkit-box-shadow: 2px 1px 1px #aaa;
+	-moz-box-shadow: 2px 1px 1px #aaa;
+	box-shadow: 2px 1px 1px #aaa;
+	cursor:pointer;
+}
+#lg-form button:active{
+    background-color: #ef8535;
+	-webkit-box-shadow: 0px 0px 1px #aaa;
+	-moz-box-shadow: 0px 0px 1px #aaa;
+	box-shadow: 0px 0px 1px #aaa;
+}
+#lg-form button:hover{
+	background:rgba(242, 182, 154, 0.96);
+}
+#message{width:100%;text-align:center}
+.success {
+	color: green;
+}
+.error {
+	color: red;
+}
+.special-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 65px;
+    border: 13px solid rgba(92, 92, 92, 0.95);
+    box-shadow: 0 0 4px #333;    
+}
+em {
+    font-family: 'allura','palatino linotype',georgia,times;
+    font-style: normal;
+    text-decoration: none;
+}
+.admin-img {
+	cursor:pointer;
+    width: 130px;
+    border-radius: 100px;
+    border: 9px solid rgba(92, 92, 92, 0.65);
+    box-shadow: 0 0 4px #333;  
+}
+
+.some-imgs {
+    margin-left: 190px;
+    
+}
+
+.cont {
+    width: 530px;
+}
+
+.admin-txt {
+   font-size: 40px; 
+    display: inline-block;
+    text-align: center;
+    width:150px;
+    margin-top: 10px;
+    text-shadow: 0 0 10px white;
+}
+
+.texts {
+    height: 50px;
+        margin-left: 190px;
+
+}
+
+.shad {
+    text-shadow: 0 0 10px white;
+}
+
+
+.some-admin {
+    
+    margin-left: 45px;
+    
+}
+
+.ad-texts {
+    height: 50px;
+    margin-left: 37px;
+}
