@@ -23,7 +23,11 @@ CUSTOMERS reserve TABLE, which contain table no, size (no of chairs), zone (loca
 
 ###Assumptions: 
 •	No deliveries: every customer has to arrive at the restaurant to receive the ordered items.
+
 •	Optionally, tables can be reserved online.
+
 •	Orders and table reservations are assigned to a particular staff member.
+
 •	Every transaction between customer and cashier is recorded, no matter how small.
+
 •	No payback after online payments.
